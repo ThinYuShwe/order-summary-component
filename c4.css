@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/JavaScript/Challenges/Challenge4/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Roboto;
+}
+
+#outerdiv {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: auto;
+}
+
+#innerdiv {
+  max-width: 25%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#pic img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+#firstpar {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#firstpar h2 {
+  margin-bottom: 20px;
+}
+
+#firstpar p {
+  line-height: 20px;
+}
+
+#grey {
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: rgba(223, 223, 223, 0.395);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 10px;
+  margin-bottom: 20px;
+}
+
+#blue div {
+  background-color: rgb(34, 34, 168);
+  color: white;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#blue p {
+  text-align: center;
+  font-weight: bolder;
+  color: rgba(128, 128, 128, 0.379);
+}
+
+#white {
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+@media (max-width: 767px) {
+  #innerdiv {
+    width: auto;
+    max-width: 100%; /* Set max-width to 100% for smaller screens */
+    height: auto;
+  }
+}
